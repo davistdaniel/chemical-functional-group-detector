@@ -38,9 +38,9 @@ Currently, the model detects the following groups :
 
 ## Trying out the model
 
-To try out functional group detection using the trained model, first open the notebook titled [FG_detector_v1_detection_test.ipynb](https://github.com/davistdaniel/Functional_Group_Detector_using_Tensorflow_object_detection/blob/master/FG_detector_v1_detection_test.ipynb) on [Google Colab](https://colab.research.google.com/). Everything is adequately explained in the notebook. 
+To try out functional group detection using the trained model, first open the notebook titled [FG_detector_v1_detection_test.ipynb](https://github.com/davistdaniel/chemical-functional-group-detector/blob/master/FG_detector_v1_detection_test.ipynb) on [Google Colab](https://colab.research.google.com/). Everything is adequately explained in the notebook. 
 
-**Click [here](https://colab.research.google.com/github/davistdaniel/Functional_Group_Detector_using_Tensorflow_object_detection/blob/master/FG_detector_v1_detection_test.ipynb) to directly open the notebook in Google Colab.** You might have to sign in to your google account to run the notebook.
+**Click [here](https://colab.research.google.com/github/davistdaniel/chemical-functional-group-detector/blob/master/FG_detector_v1_detection_test.ipynb) to directly open the notebook in Google Colab.** You might have to sign in to your google account to run the notebook.
 You are welcome to contact me on my email in case of any issues.
 
 
@@ -62,7 +62,7 @@ My implementations are definitely not the most efficient.
 	* Ether
 	* Benzene Ring
 	* Double Bond
-*  Check the the directory [detection_results_fg_detector_v1](https://github.com/davistdaniel/Functional_Group_Detector_using_Tensorflow_object_detection/tree/master/detection_results_fg_detector_v1) for tested images and corresponding detections using the trained model.
+*  Check the the directory [detection_results_fg_detector_v1](https://github.com/davistdaniel/chemical-functional-group-detector/tree/master/detection_results_fg_detector_v1) for tested images and corresponding detections using the trained model.
 
 * You can see few errors in detections and sometimes the model does not detect all similar groups in the structure, however, this could be solved by a bigger dataset.
 * The training was done only for 3.5 hours, using 40000 steps with a batch size of 4.
