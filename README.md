@@ -47,12 +47,6 @@ You are welcome to contact me on my email in case of any issues.
 
 ## Limitations
 
-I am quite new to Tensorflow, Deep Learning/Machine Learning and programming as a whole. 
-This project is my first attempt at a Tensorflow project for detecting objects. 
-My main aim was to learn how to set things up and make my first pass at Machine learning.
-I have mostly followed online tutorials to educate myself and set everything up.
-My implementations are definitely not the most efficient. 
-
 * The model was trained on around 600 images from PubChem which I annotated. However, the sampling was not uniform.
 * Therefore, the model is better at detecting :
 	* Alcohol
