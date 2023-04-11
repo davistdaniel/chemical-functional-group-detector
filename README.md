@@ -3,8 +3,6 @@
 
 By Davis Thomas Daniel
 
-Email :  forall2087@gmail.com
-
 Here is a screengrab of one of the detections. 
 ![An example of detected functional groups](detection_results_fg_detector_v1/fg_detection_example.png)
 
@@ -60,19 +58,11 @@ You are welcome to contact me on my email in case of any issues.
 
 * You can see few errors in detections and sometimes the model does not detect all similar groups in the structure, however, this could be solved by a bigger dataset.
 * The training was done only for 3.5 hours, using 40000 steps with a batch size of 4.
-
-## Outlook
-
-* My plans moving ahead, is to definitely increase the training dataset both in size and heterogeneity. The current model is solely trained on PubChem images.
-* My plan is to inlclude random images of functional groups from google searches.
-* I also plan to increase the number of classes signficantly, once I am more experienced with the whole process.
-* Multiple trials with different pre-trained models.
-
 	
 ## Contributing
 Suugestions and comments are very welcome! 
 Let me know if you have any suggestions or other comments.I would be glad to discuss them and make required changes.
-You can drop me an email at : forall2087@gmail.com
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
